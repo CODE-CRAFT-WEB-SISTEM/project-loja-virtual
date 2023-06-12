@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <title>HTML</title>
+
+  <!-- HTML -->
+
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar bg-body-tertiary fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Logo</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Logo</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html"><i class="bi bi-house"></i> Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="bi bi-bag"></i> Produtos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="bi bi-info-circle"></i> Sobre</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Redes sociais
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#"><i class="bi bi-whatsapp"></i> Whatsapp</a></li>
+                  <li><a class="dropdown-item" href="https://t.me/USUARIO"><i class="bi bi-telegram"></i> Telegram</a></li>
+                  <li><a class="dropdown-item" href="#"><i class="bi bi-youtube"></i> YouTube</a></li>
+                </ul>
+                <form class="d-flex mt-3" role="search">
+                  <input id="search" class="form-control me-2" type="search" placeholder="Oque você procura?" aria-label="Search">
+                  <button id="meet" class="btn btn-outline-success" type="submit">Pesquisar</button>
+                </form>
+                <ul id="resultados"></ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section class="primarySection">
+    <h1>Métodos 2023</h1>
+    <h4>A criatividade impulsiona a inovação</h4>
+    <a href="#thirdSection"><button type="button" class="btnS btn btn-outline-light">Saiba mais</button></a>
+  </section><!-- primarySection -->
+
+  <section class="secondarySection">
+
+    <div class="content">
+      <div class="video">
+        <video class="myVideo" src="./src/videos/video.mp4" controls controlsList="nodownload"></video>
+      </div><!-- video -->
+
+      <div class="titleText">
+        <h1>Quem somos</h1>
+        <p>Somos uma equipe dedicada que valoriza a excelência na execução de projetos. Nossa abordagem baseia-se na aplicação cuidadosa de métodos comprovados, combinando conhecimento técnico e criatividade. </p>
+      </div><!-- titleText -->
+
+    </div>
+
+  </section><!-- secondarySection -->
+  <main>
+    <section id="thirdSection" class="thirdSection">
+
+      <div class="containerCard">
+
+        <div class="card">
+          <i id="youtubeBtnA" class="bi bi-plus"></i>
+          <i class="bi bi-instagram"></i>
+          <h1>Domine o Instagram</h1>
+          <p>Transforme seu Instagram em uma poderosa máquina de conexões, cativando seguidores e deixando sua marca no mundo digital.</p>
+          <a class="btn btn-primary disabled" role="button">Obtenha Já!</a>
+        </div><!-- card -->
+
+        <div class="card">
+          <i id="youtubeBtnB" class="bi bi-plus"></i>
+          <i class="bi bi-youtube"></i>
+          <h1>Desvende os Segredos do YouTube</h1>
+          <p>Conquiste seguidores no YouTube através de conteúdo autêntico e estratégias inteligentes.</p>
+          <a class="btn btn-primary disabled" role="button">Obtenha Já!</a>
+        </div><!-- card -->
+
+        <div class="card">
+          <i id="youtubeBtnC" class="bi bi-plus"></i>
+          <i class="bi bi-cash-coin"></i>
+          <h1>Painel de Revendas</h1>
+          <p>Alcance a liberdade online, proteja a privacidade e ainda ganhe uma renda extra, oferecendo soluções de segurança e acesso ilimitado à internet para seus clientes.</p>
+          <a class="btn btn-primary disabled" href="" role="button">Obtenha Já!</a>
+        </div><!-- card -->
+
+        <div class="card">
+          <i id="youtubeBtnD" class="bi bi-plus"></i>
+          <i class="bi bi-file-bar-graph"></i>
+          <h1>Login de internet</h1>
+          <p>Desbloqueie um mundo de possibilidades com acesso ilimitado à Internet, desfrutando dos benefícios da segurança e da privacidade em suas conexões online.</p>
+          <a class="btn btn-primary disabled" role="button">Obtenha Já!</a>
+        </div><!-- card -->
+
+      </div><!-- containerCard -->
+  </main>
+  </section><!-- thirdSection -->
+  <footer>
+    <a class="logoFooter" href="./index.html">
+      <h1>Logo</h1>
+    </a>
+    <div class="contactsFooter">
+      <p><i class="bi bi-chat-fill"></i> Estamos prontos para lhe ajudar.</p>
+      <a href="#"><button style="background: #25d366;border: 0" class="btn btn-success"><i class="bi bi-whatsapp"></i></button></a>
+
+      <a href="#"><button style="background: #0088cc;border: 0" class="btn btn-primary"><i class="bi bi-telegram"></i></button></a>
+
+    </div><!-- contactsFooter -->
+    <div class="copyright">
+      <span>Copyright 2010-2023 © Sua empresa.</span>
+      <span>CNPJ: 00.000.000/0000-00</span>
+      <span>Todos os direitos. reservados.</span>
+    </div>
+  </footer>
+  <!-- Project -->
+  <script src="./src/script/youTube.js"></script>
+  <script src="./src/script/search.js"></script>
+</body>
+
+</html>

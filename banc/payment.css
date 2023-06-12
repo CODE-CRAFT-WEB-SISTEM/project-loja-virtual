@@ -1,0 +1,54 @@
+body{
+  height: 100vh;
+}
+.primarySectionPayment{
+  margin-top: calc(65px + 3rem);
+}
+.qrCodeBox{
+  width: 100%;
+  max-width: 360px;
+  min-width: 300px;
+  margin: 0 auto;
+  background-color: whitesmoke;
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 2rem;
+  text-align: center;
+}
+
+.qrCodeBox h1{
+  font-size: 14pt;
+  color: #353535;
+}
+.qrCodeBox p{
+  margin-top: -14px;
+  font-size: 15px;
+  color: #353535;
+}
+
+.qrCodeBox img{
+  width: 100%;
+}
+
+.qrCodeBox input{
+  width: 100%;
+  color: #353535;
+}
+.qrCodeBox button{
+  width: 100%;
+  border: 0;
+  background-color: seagreen;
+  color: white;
+  height: 43px;
+  border-radius: 10px;
+  font-size: 15pt;
+  cursor: pointer;
+}
+.copied{
+  background-color: green;
+}
