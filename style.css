@@ -4,6 +4,36 @@ body {
   height: 100vh;
 }
 
+.logoType {
+  width: 110px;
+}
+
+.resultados {
+  background-color: #292929;
+  box-shadow: 0 0 15px #292929;
+  border-radius: 10px;
+}
+
+.resultados li {
+  color: white;
+  padding: .5rem 0 .5rem 0;
+}
+
+.resultados li a {
+  color: #ccc;
+  font-size: 15pt;
+}
+
+.resultados li a:hover {
+  color: rgb(139, 65, 223);
+}
+
+.logoTypeFooter {
+  width: 210px;
+  display: block;
+  margin: 0 auto;
+}
+
 .navbar {
   height: 65px;
 }
@@ -14,8 +44,8 @@ body {
 
 .primarySection {
   width: 100%;
-  height: 650px;
-  background-image: url(./src/images/background.png);
+  height: 750px;
+  background-image: url(./src/images/bg_tec.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -76,8 +106,13 @@ section {
   font-size: 12pt;
 }
 
+.video {
+  width: 50%;
+}
+
 .myVideo {
   width: 100%;
+  height: 400px;
   max-width: 380px;
   min-width: 200px;
   height: 200px;
@@ -159,6 +194,7 @@ iframe {
 
 /* FOOTER */
 footer {
+  width: 100%;
   margin-top: 4rem;
   padding: 2rem 0 0 0;
   background-color: whitesmoke;
@@ -191,11 +227,16 @@ footer {
 
   /* Primeira secao */
   .primarySection {
-    height: 450px;
+    height: 600px;
+  }
+
+  .video {
+    width: 100%;
   }
 
   .myVideo {
-    max-width: 350px;
+    max-width: 90%;
+    height: 270px;
     margin-top: 3rem;
   }
 

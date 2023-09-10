@@ -1,4 +1,5 @@
-let meet = document.getElementById('meet');
+function pluginSearch () {
+  let meet = document.getElementById('meet');
 let resultados = document.getElementById('resultados');
 
 let buscas = [
@@ -39,3 +40,6 @@ meet.addEventListener('click', (ev) => {
     resultados.appendChild(li);
   });
 });
+}
+
+export default pluginSearch

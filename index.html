@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
   <meta charset="UTF-8">
@@ -7,40 +7,44 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="CODE CRAFT web sistem">
   <meta name="keywords" content="CODECRAFT, CODE CRAFT, codecraft, code craft">
-  <!-- Bootstrap -->
+
+  <title>Code Craft - Home</title>
+
+  <!-- Javascript -->
+  <script src="./src/script/index.js" type="module" defer></script>
+
+  <!-- Bootstrap CDN -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
     crossorigin="anonymous"></script>
 
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
-  <title>HTML</title>
-
-  <!-- HTML -->
-
-
   <!-- Custom Styles -->
   <link rel="stylesheet" href="style.css">
+
+    <!-- HTML -->
+
 </head>
 
 <body>
   <header>
     <nav class="navbar bg-body-tertiary fixed-top">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Logo</a>
+        <a class="navbar-brand" href="#">
+          <img id="logoType" class="logoType">
+        </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
           aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
           <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Logo</h5>
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+              <img id="logoType" class="logoType">
+            </h5>
             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
           </div>
           <div class="offcanvas-body">
@@ -70,7 +74,7 @@
                     aria-label="Search">
                   <button id="meet" class="btn btn-outline-success" type="submit">Pesquisar</button>
                 </form>
-                <ul id="resultados"></ul>
+                <ol id="resultados" class="resultados"></ol>
           </div>
         </div>
       </div>
@@ -87,7 +91,7 @@
 
     <div class="content">
       <div class="video">
-        <video class="myVideo" src="./src/videos/video.mp4" controls controlsList="nodownload"></video>
+        <iframe class="myVideo" src="https://www.youtube-nocookie.com/embed/EciNrK-gYO8?si=-BUvqmxN5w7ghjoB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </div><!-- video -->
 
       <div class="titleText">
@@ -107,36 +111,35 @@
         <div class="card">
           <i id="youtubeBtnA" class="bi bi-plus"></i>
           <i class="bi bi-instagram"></i>
-          <h1>Domine o Instagram</h1>
-          <p>Transforme seu Instagram em uma poderosa máquina de conexões, cativando seguidores e deixando sua marca no
-            mundo digital.</p>
-          <a class="btn btn-primary disabled" role="button">Obtenha Já!</a>
+          <h1>CARD 01</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet.</p>
+          <a class="btn btn-primary" role="button">Obtenha Já!</a>
         </div><!-- card -->
 
         <div class="card">
           <i id="youtubeBtnB" class="bi bi-plus"></i>
           <i class="bi bi-youtube"></i>
-          <h1>Desvende os Segredos do YouTube</h1>
-          <p>Conquiste seguidores no YouTube através de conteúdo autêntico e estratégias inteligentes.</p>
-          <a class="btn btn-primary disabled" role="button">Obtenha Já!</a>
+          <h1>CARD 02</h1>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis dicta possimus vero necessitatibus
+            accusamus aspernatur!</p>
+          <a class="btn btn-primary" role="button">Obtenha Já!</a>
         </div><!-- card -->
 
         <div class="card">
           <i id="youtubeBtnC" class="bi bi-plus"></i>
           <i class="bi bi-cash-coin"></i>
-          <h1>Painel de Revendas</h1>
-          <p>Alcance a liberdade online, proteja a privacidade e ainda ganhe uma renda extra, oferecendo soluções de
-            segurança e acesso ilimitado à internet para seus clientes.</p>
-          <a class="btn btn-primary disabled" href="" role="button">Obtenha Já!</a>
+          <h1>CARD 03</h1>
+          <p>Lorem ipsum dolor sit amet Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam, minus.</p>
+          <a class="btn btn-primary" href="" role="button">Obtenha Já!</a>
         </div><!-- card -->
 
         <div class="card">
           <i id="youtubeBtnD" class="bi bi-plus"></i>
           <i class="bi bi-file-bar-graph"></i>
-          <h1>Login de internet</h1>
-          <p>Desbloqueie um mundo de possibilidades com acesso ilimitado à Internet, desfrutando dos benefícios da
-            segurança e da privacidade em suas conexões online.</p>
-          <a class="btn btn-primary disabled" role="button">Obtenha Já!</a>
+          <h1>CARD 04</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga consequatur architecto, excepturi libero ex
+            ipsum qui.</p>
+          <a class="btn btn-primary" href="/banc/payment.html" role="button">Obtenha Já!</a>
         </div><!-- card -->
 
       </div><!-- containerCard -->
@@ -144,7 +147,7 @@
   </section><!-- thirdSection -->
   <footer>
     <a class="logoFooter" href="./index.html">
-      <h1>Logo</h1>
+      <img id="logoType" class="logoType logoTypeFooter">
     </a>
     <div class="contactsFooter">
       <p><i class="bi bi-chat-fill"></i> Estamos prontos para lhe ajudar.</p>
@@ -162,8 +165,6 @@
     </div>
   </footer>
   <!-- Project -->
-  <script src="./src/script/youTube.js"></script>
-  <script src="./src/script/search.js"></script>
 </body>
 
 </html>
