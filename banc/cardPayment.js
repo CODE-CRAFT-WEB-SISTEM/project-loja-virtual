@@ -4,14 +4,14 @@ const price = document.getElementById('price');
 const imgQr = document.getElementById('imgQr');
 
 // ADICIONE O PREÇO DO SEU PRODUTO
-price.textContent = '20.00';
+price.textContent = '10.00';
 
 // MUDAR IMAGEM DO QRCODE
 // OBS: AO MUDAR A IMAGEM QRcode CERTIFIQUE-SE DE MUDAR TAMBÉM O NOME DO ARQUIVO PRA RENDERIZAR!
 imgQr.innerHTML = `<img src="../banc/images/Untitled.svg" alt="QRcode">`;
 
 // ADICIONE SUA CHAVE PIX NO VALUE
-pixKeyInput.value = `gGWJSBAJQQBAHWJWVAHJH`;
+pixKeyInput.value = `gabrielrodrigueslima222@gmail.com`;
 
 // FUNÇÃO DE COPIAR
 copyButton.addEventListener('click', function(ev) {
