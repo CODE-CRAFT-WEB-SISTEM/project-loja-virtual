@@ -7,7 +7,7 @@ let buscas = [
   { nome: 'Painel de Revendas VPN', url: 'https://www.exemplo.com' },
   { nome: 'Login VPN', url: 'https://www.exemplo.com/login' },
   { nome: 'Seguidores no Facebook', url: 'https://www.facebook.com' },
-  { nome: 'Contato de suporte no Telegram', url: 'https://t.me/' },
+  { nome: 'Contato de suporte no Telegram', url: 'https://t.me/@SSHFOX' },
   { nome: 'Contato de suporte no WhatsApp', url: 'https://wa.me/+5561981323772' },
   { nome: 'Oque você quiser', url: 'https://wa.me/' }
       ];
